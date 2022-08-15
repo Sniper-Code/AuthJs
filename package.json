@@ -1,0 +1,37 @@
+{
+  "name": "auth.js",
+  "version": "1.0.0",
+  "description": "Authentication project",
+  "main": "index.js",
+  "author": "Dibesh Raj Subedi",
+  "license": "MIT",
+  "scripts": {
+    "setup:backend": "npm install",
+    "clean": "node cleanup.js",
+    "setup": "npm run clean && npm run setup:backend",
+    "open:dev-backend": "open-cli http://localhost:8080/docs",
+    "dev:debug": "npm run open:dev-backend && nodemon index.js",
+    "dev": "npm run open:dev-backend && node index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "helmet": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "snipercode.filesystem": "^1.0.1",
+    "sqlite3": "^5.0.11",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "open-cli": "^7.0.1",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  }
+}

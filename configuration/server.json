@@ -1,0 +1,18 @@
+{
+    "server": {
+        "preventions": {
+            "sqLInjection": true,
+            "enableAccessControl": true,
+            "logoutSessionHijack": true,
+            "preventCsp": false
+        }
+    },
+    "jwt": {
+        "secret": "jwtSecret@Image _Sever.2022",
+        "expiry": "2h",
+        "appliedEndPoints": [
+            "/api/auth/login_check",
+            "/api/user"
+        ]
+    }
+}
