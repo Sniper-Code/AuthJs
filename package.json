@@ -6,12 +6,12 @@
   "author": "Dibesh Raj Subedi",
   "license": "MIT",
   "scripts": {
-    "setup:backend": "yarn install",
+    "setup:backend": "npm install",
     "clean": "node cleanup.js",
-    "setup": "yarn run setup:backend && yarn run clean",
+    "setup": "npm run setup:backend && npm run clean",
     "open:dev-backend": "open-cli http://localhost:8080/docs",
-    "dev:debug": "yarn run open:dev-backend && nodemon index.js",
-    "dev": "yarn run open:dev-backend && node index.js"
+    "dev:debug": "npm run open:dev-backend && nodemon index.js",
+    "dev": "npm run open:dev-backend && node index.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
