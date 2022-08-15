@@ -28,7 +28,7 @@ This is a dummy project that helps you to start your frontend project and setup 
 ## Requirements
 
 - [NodeJs](https://nodejs.org/en/) installed `v12.x.x` or higher.
-- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install) installed -> use  `yarn install --global yarn` if you want to setup yarn
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install) installed -> use  `npm install --global yarn` if you want to setup yarn
 
 Thats it for the requirements.
 
