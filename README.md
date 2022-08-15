@@ -36,7 +36,7 @@ Thats it for the requirements.
 
 Setting up project is relatively easy if you have `Node.js` installed in your pc.
 
-1. Clone the repo or download the repo from [https://github.com/itSubeDibesh/ImageServer](https://github.com/itSubeDibesh/ImageServer)
+1. Clone the repo or download the repo from [https://github.com/Sniper-Code/AuthJs](https://github.com/Sniper-Code/AuthJs)
 2. Open terminal pointing to cloned directory and follow the [Instructions](#instructions) section.
 
 ### Pre-Requisites
@@ -103,7 +103,7 @@ Open your browser navigate to `http://localhost:8080/docs` URl and you are good 
 1. [library](./library/) directory -> All custom written Codes
 1. [node_modules](./node_modules/) -> All the packages and dependencies.
 
-`index.js` file is the initial file that server requires whereas `cleanup.js` file is used to remove create a fresh setup of project wiping all information in database as well as images stored in `storage` directory.
+`index.js` file is the initial file that server requires whereas `cleanup.js` file is used to remove create a fresh setup of project wiping all information in database.
 
 ⚠️ Warning : Don't Run `yarn clean` or `yarn setup` unless you want a fresh setup.
 
